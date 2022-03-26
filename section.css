@@ -1,0 +1,123 @@
+.flex_coloumn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.text{
+    text-align: center;
+    word-wrap: break-word;
+    color: rgb(143, 139, 139);
+   
+}
+section{
+    min-height: 500px;
+    height:max-content;
+    color: black;
+    padding:20px 40px;
+    box-sizing: border-box;
+}
+section div{
+    margin:20px;
+}
+
+
+/* ----section headings------- */
+.section_heading_underline{
+   position: relative;
+    width:500px;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+}
+.section_heading_text{
+    padding:0 5px;
+    background-color:#fff;
+    position: absolute;
+ 
+    margin-top: -20px;
+    font-size: xx-large;
+}
+
+.section_heading_text_icon{
+    background-color:#fff;
+    position: absolute;
+
+    padding:0 5px;
+    margin-top: -10px;
+}
+
+
+
+
+
+
+
+/*---------------skills---------*/
+.skills_section{
+    
+}
+.skill{
+    height:45px;
+    width:500px;
+    padding:5px  15px;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    margin:35px 0;
+
+}
+.skill_name_div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.skill_name_div p{
+    font-size: 16px;
+    font-weight: bolder;
+}
+.skill_bar{
+    margin-top: -5px;
+    position: relative;
+    width: 100%;
+    height:4px;
+    border: 2px solid black;
+    border-radius: 10px ;
+    background-color: #fff;
+}
+
+.skill_bar>p{
+    height: 4px;
+    background-color: black;
+    width:80%;
+}
+
+
+/* ------------Experience Section---------- */
+.experience_details_block{
+    box-sizing: border-box;
+    height:140px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+.experience_details{
+    height: 120px;
+    width: 100%;
+}
+.experience_details_date{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.experience_details_name{
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: large;
+}
+.experience_details_about{
+    color: rgb(175, 170, 170);
+  
+}
+.experience_details_list li{
+    margin: 15px;
+}

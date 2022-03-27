@@ -7,7 +7,7 @@
 .text{
     text-align: center;
     word-wrap: break-word;
-    color: rgb(143, 139, 139);
+    color: rgb(228, 225, 225);
    
 }
 section{
@@ -16,12 +16,14 @@ section{
     color: black;
     padding:20px 40px;
     box-sizing: border-box;
+    background-color: #fff;
 }
 section div{
     margin:20px;
 }
-
-
+section:nth-child(2n+1){
+    background-color: white;
+}
 /* ----section headings------- */
 .section_heading_underline{
    position: relative;
@@ -120,4 +122,21 @@ section div{
 }
 .experience_details_list li{
     margin: 15px;
+}
+
+
+/* ----contact me section---------- */
+
+.contact_details_block{
+    text-align: center;
+    font-size: 14px;
+}
+.contact_detail_name{
+    font-weight: bold;
+}
+.contact_detail_username{
+   color: rgb(175, 170, 170);
+}
+.contact_detail_icon>i{
+    font-size: x-large;
 }

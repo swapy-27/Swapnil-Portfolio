@@ -7,6 +7,10 @@ main{
     height: 100vh;
     width: 100vw;
     background: black;
+    background-image: url('./assets/background.jpg');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: center;
     display: flex;
     align-items: center;
     justify-content: space-evenly;

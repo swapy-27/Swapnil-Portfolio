@@ -1,5 +1,14 @@
 const sectionId = document.getElementsByClassName('section-links')
+const navSection = document.getElementById('header')
 
+window.addEventListener('scroll',function(){
+    if(this.document.documentElement.scrollTop>100){
+        navSection.classList.add('header_background')
+    }
+    else{
+        navSection.classList.remove('header_background')
+    }
+})
 
 for (let i = 0; i < sectionId.length; i++) {
     sectionId[i].addEventListener('click', function () {
@@ -43,7 +52,7 @@ var scrollFunc = function (curr, target) {
 
     var scrollId = setInterval(
         () => {
-            console.log(curr, target)
+          
             if (curr >= target) {
                 clearInterval(scrollId)
             }

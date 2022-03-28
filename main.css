@@ -42,6 +42,7 @@ main{
     border:2px solid white;
     padding: 8px;
     border-radius: 50px;
+    width: fit-content;
 }
 
 #home_centre_div_download:hover{

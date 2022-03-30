@@ -60,11 +60,14 @@ section:nth-child(2n+1){
     height: fit-content;
     padding: 10px 20px;
 }
+.about-text-bold{
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
 .about-text-bold span{
    margin :0 5px;
    font-size: large;
    font-weight: bold;
-
 }
 
 .about-text{
@@ -137,6 +140,7 @@ section:nth-child(2n+1){
 
 /* ------------Experience Section---------- */
 .experience_details_list{
+    
     display:flex;
     align-items: center;
     justify-content: space-between;
@@ -146,15 +150,37 @@ section:nth-child(2n+1){
     box-sizing: border-box;
   
 }
+.sideline{
+    position: absolute;
+    height: 170px;
+    width:2px;
+    background-color: black;
+    left:-15px;
+    top:-4px;
+    z-index:-1;
+}
 .experience_details_block{
+    position: relative;
     box-sizing: border-box;
     height:140px;
     width:420px;
     border: 1px solid black;
     border-radius: 10px;
     padding:10px  10px;
-    
+    list-style: none;
+    list-style-position: outside;
 }
+.experience_details_block::before {
+    content: '';
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    background-image: url('./assets/rocket.png');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    left: -30px;
+  }
 .experience_details{
     height: 120px;
     width:100%;
@@ -270,5 +296,15 @@ section:nth-child(2n+1){
     background-color: #80808078;
     color: white;
 }
+.project_tab_github{
 
-
+}
+.project_tab_github a{
+   text-decoration: none;
+   color:rgb(175, 170, 170);
+   transition: all 0.4s ease-in-out;
+}
+.project_tab_github p :hover{
+    border-bottom:  1px solid black;
+    color: blue;
+ }

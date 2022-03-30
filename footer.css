@@ -1,3 +1,12 @@
+@keyframes rotating {
+    from
+    {
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
 footer{
     height:100px;
     display:flex;
@@ -5,7 +14,9 @@ footer{
     align-items: center;
     justify-content: space-evenly;
 }
-
+.footer-social-links{
+    margin: 0 5px; 
+}
 .footer-text>span{
     background-color: #fff;
     color:rgb(143, 139, 139);
@@ -16,7 +27,9 @@ footer{
     padding:8px;
     text-decoration: none;
     color:rgb(143, 139, 139);
+    /* animation: rotating 1s ease-in-out infinite; */
 }
+
 .footer-social>a:hover{
     border:2px solid black;
     color: black

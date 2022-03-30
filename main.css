@@ -1,3 +1,14 @@
+@keyframes upDown {
+    from{
+        
+        transform: translateY(-2px);
+    }
+    
+    to{
+        /* transform:scaleY(1); */
+        transform: translateY(5px);
+    }
+}
 main{
     color: white;
     overflow-x: hidden;
@@ -70,6 +81,7 @@ main{
 }
 #home_centre_div_downward_arrow{
     margin-top: 90px;
+    animation: upDown 1s ease-in-out infinite;
 }
 
 #home_centre_div_downward_arrow>i{

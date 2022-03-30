@@ -26,33 +26,48 @@
                 <p data-value='work' class="section-links">Work</p>
                 <p data-value='contact' class="section-links">Contact</p>
             </div>
+         <!-- <div id="menu-bars">
+                <p><i class="fa-solid fa-bars"></i></p>
+            </div> -->
+               <!-- <div id="hidden-div">
+                <p data-value='home' class="section-links">Home</p>
+                <p data-value='about' class="section-links">About</p>
+                <p data-value='experience' class="section-links">Experience</p>
+                <p data-value='work' class="section-links">Work</p>
+                <p data-value='contact' class="section-links">Contact</p>
+            </div> -->
         </nav>
     </header>
     <main>
-        <div id="home">
-
-            <div id="home_centre_div">
-                <div id='home_centre_div_greeting'>
-                    <h2>Hello & Welcome</h2>
+        <div id="home" class="flex_row">
+            <div id="home_container" class="flex_coloumn">
+                <div id="home_centre_div" class="flex_coloumn">
+                    <div id='home_centre_div_greeting'>
+                        <h2>Hello & Welcome</h2>
+                    </div>
+                    <div id="home_centre_div_text">
+                        <h1>I Am <span id="change_text"></span>|</h1>
+                    </div>
+                    <div id="home_centre_div_links">
+                        <a href="" class="social-links"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="" class="social-links"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="" class="social-links"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <div id="home_centre_div_download">
+                        <a href="">Download CV</a>
+                    </div>
                 </div>
-                <div id="home_centre_div_text">
-                    <h1>I Am <span id="change_text"></span>|</h1>
+                <div id="home_centre_div_downward_arrow">
+                    <i class="fa-solid fa-angles-down"></i>
                 </div>
-                <div id="home_centre_div_links">
-                    <a href="" class="social-links"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="" class="social-links"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="" class="social-links"><i class="fa-brands fa-github"></i></a>
-                </div>
-                <div id="home_centre_div_download">
-                    <a href="">Download CV</a>
-                </div>
-
             </div>
         </div>
+
+
         <section id="about">
             <div class="container flex_coloumn">
-                <div class="section_heading ">
-                    <div class="flex_coloumn">
+                <div class="section_heading">
+                    <div class="section_heading_name flex_coloumn">
                         <div class='section_heading_underline'>
                             <p class="section_heading_text">
                                 <span style="font-weight: bolder;">About</span>
@@ -65,37 +80,40 @@
                             </p>
                         </div>
                     </div>
-                    <div>
-                        <p class=" text">Hi, I’m Swapnil, currently working as Full Stack Web Developer at
-                            Capgemini .
-                            I'm responsible for end-to-end web app development and creative cloud engineering. Loves
-                            Problem
-                            Solving and to unravel the mysteries behind the magic of computer programs.
-                            Skilled in JavaScript ,Python, HTML/CSS, React, Node JS, Express, Bootstrap, SQL
-                            Databases/NoSQL
-                            Database, Next.JS . Apart from programming you can find me playing FIFA, listening to
-                            Coldplay
-                            or polishing my design skills. I also have a special affection towards dogs 🐶🐶 and the
-                            sparking heart emoji 💖💖
+                    <div class="section_heading_below_text">
+                        <p class=" text">Hi,I’m Swapnil, currently working as Full Stack Web Developer at
+                            Capgemini.I'm responsible for end-to-end web app development and creative cloud
+                            engineering.Loves Problem Solving and to unravel the mysteries behind the magic of computer
+                            programs.Skilled in JavaScript ,Python, HTML/CSS, React, Node JS, Express, Bootstrap, SQL
+                            Databases/NoSQL Database, Next.JS.Apart from programming you can find me playing various
+                            sports, reading books, listening to Coldplay or polishing my skills.
                         </p>
                     </div>
                 </div>
 
-                <div>
-                    <p>
+                <div class="flex_coloumn">
+                    <div>
+                        <img>
+
+                    </div>
+                    <div class="about-text-bold">
                         <span>Developer</span>
                         <span>Designer</span>
                         <span>Engineer</span>
-                    </p>
-                    <p class="about-text">
 
-                    </p>
+                    </div>
+                    <div>
+                        <p class="about-text text">
+                            Hi,I’m Swapnil, currently working as Full Stack Web Developer at
+                            Capgemini.
+                        </p>
+                    </div>
                 </div>
 
                 <div id="skills_section">
                     <div class="skill flex_coloumn">
                         <div class="skill_name_div">
-                            <p class="skill_name">Web and JavaScript</p>
+                            <p class="skill_name"> JavaScript</p>
                             <p class="skill_icon">80</p>
                         </div>
                         <div class="skill_bar">
@@ -105,7 +123,7 @@
                     </div>
                     <div class="skill flex_coloumn">
                         <div class="skill_name_div">
-                            <p class="skill_name">Web and JavaScript</p>
+                            <p class="skill_name">Web Development</p>
                             <p class="skill_icon">80</p>
                         </div>
                         <div class="skill_bar">
@@ -115,44 +133,46 @@
                     </div>
                     <div class="skill flex_coloumn">
                         <div class="skill_name_div">
-                            <p class="skill_name">Web and JavaScript</p>
-                            <p class="skill_icon">80</p>
+                            <p class="skill_name"> Python</p>
+                            <p class="skill_icon">70</p>
                         </div>
                         <div class="skill_bar">
-                            <p>
+                            <p style="width: 70%;">
                             </p>
                         </div>
                     </div>
                     <div class="skill flex_coloumn">
                         <div class="skill_name_div">
-                            <p class="skill_name">Web and JavaScript</p>
-                            <p class="skill_icon">80</p>
+                            <p class="skill_name">Google Cloud </p>
+                            <p class="skill_icon">60</p>
                         </div>
                         <div class="skill_bar">
-                            <p>
+                            <p style="width: 60%;">
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="skill flex_coloumn">
+                        <div class="skill_name_div">
+                            <p class="skill_name"> Photoshop</p>
+                            <p class="skill_icon">40</p>
+                        </div>
+                        <div class="skill_bar">
+                            <p style="width: 40%;">
                             </p>
                         </div>
                     </div>
                     <div class="skill flex_coloumn">
                         <div class="skill_name_div">
-                            <p class="skill_name">Web and JavaScript</p>
-                            <p class="skill_icon">80</p>
+                            <p class="skill_name">Blockchain</p>
+                            <p class="skill_icon">20</p>
                         </div>
-                        <div class="skill_bar">
-                            <p>
+                        <div class="skill_bar" >
+                            <p style="width: 20%;">
                             </p>
                         </div>
                     </div>
-                    <div class="skill flex_coloumn">
-                        <div class="skill_name_div">
-                            <p class="skill_name">Web and JavaScript</p>
-                            <p class="skill_icon">80</p>
-                        </div>
-                        <div class="skill_bar">
-                            <p>
-                            </p>
-                        </div>
-                    </div>
+                 
 
                 </div>
             </div>
@@ -160,7 +180,7 @@
         <section id="experience">
             <div class="container flex_coloumn">
                 <div class="section_heading ">
-                    <div class="flex_coloumn">
+                    <div class="section_heading_name flex_coloumn">
                         <div class='section_heading_underline'>
                             <p class="section_heading_text">
                                 <span style="font-weight: bolder;">Experience</span>
@@ -180,41 +200,43 @@
 
                 <ul class="experience_details_list">
                     <li class="experience_details_block">
-                        <div class="experience_details  ">
+                        <div class="experience_details  flex_coloumn ">
+                            <p class="experience_details_date">Oct/2021-Present</p>
+                            <p class="experience_details_name">Capgemini India</p>
+                            <p class="experience_details_about">Currently working as a Software Engineer</p>
+                        </div>
+                    </li>
+                    <li class="experience_details_block">
+                        <div class="experience_details flex_coloumn ">
                             <p class="experience_details_date">2017-2021</p>
                             <p class="experience_details_name">Gyan Ganga Institute Of Technology And Science</p>
                             <p class="experience_details_about">Bachelor's of Technology in Mechanical Engineering</p>
                         </div>
                     </li>
                     <li class="experience_details_block">
-                        <div class="experience_details  ">
-                            <p class="experience_details_date">2017-2021</p>
-                            <p class="experience_details_name">Gyan Ganga Institute Of Technology And Science</p>
-                            <p class="experience_details_about">Bachelor's of Technology in Mechanical Engineering</p>
+                        <div class="experience_details  flex_coloumn ">
+                            <p class="experience_details_date">2021</p>
+                            <p class="experience_details_name">Coding Ninjas</p>
+                            <p class="experience_details_about">Completed coursework on "Data Structures and Algorithms" & "Full Stack Web Development"</p>
                         </div>
                     </li>
                     <li class="experience_details_block">
-                        <div class="experience_details  ">
-                            <p class="experience_details_date">2017-2021</p>
-                            <p class="experience_details_name">Gyan Ganga Institute Of Technology And Science</p>
-                            <p class="experience_details_about">Bachelor's of Technology in Mechanical Engineering</p>
+                        <div class="experience_details  flex_coloumn ">
+                            <p class="experience_details_date">2015-2017</p>
+                            <p class="experience_details_name"> Royan Senior Secondary School,Jabalpur</p>
+                            <p class="experience_details_about">Completed Senior Secondary Education</p>
                         </div>
                     </li>
-                    <li class="experience_details_block">
-                        <div class="experience_details  ">
-                            <p class="experience_details_date">2017-2021</p>
-                            <p class="experience_details_name">Gyan Ganga Institute Of Technology And Science</p>
-                            <p class="experience_details_about">Bachelor's of Technology in Mechanical Engineering</p>
-                        </div>
-                    </li>
+    
+                 
                 </ul>
                 <div class="hiring_container flex_coloumn">
-                    <div class="flex_coloumn">
-                        <div class="hiring_details">Hire me for Part-Time/Freelance Roles</div>
-                        <div id="home_centre_div_download">
-                            <a href="#contact">Contact Me</a>
-                        </div>
+
+                    <div class="hiring_details">Hire me for Part-Time/Freelance Roles</div>
+                    <div id="home_centre_div_download">
+                        <a href="#contact">Contact Me</a>
                     </div>
+
                 </div>
             </div>
         </section>
@@ -223,7 +245,7 @@
 
 
                 <div class="section_heading ">
-                    <div class="flex_coloumn">
+                    <div class="section_heading_name flex_coloumn">
                         <div class='section_heading_underline'>
                             <p class="section_heading_text">
                                 <span style="font-weight: bolder;">My</span>
@@ -249,70 +271,15 @@
                         <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png">
                         <div class="project-details ">
                             <div>
-                            <p class="project-heading">
-                                disney clone
-                            </p>
-                            <p class="about-project">
-                                Write here basic details about the project.
-                            </p>
-                        </div>
-                        </div>
-
-                    </div>
-                    <div class="project-image-container">
-                        <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png">
-                        <div class="project-details ">
-                            <div>
-                            <p class="project-heading">
-                                disney clone
-                            </p>
-                            <p class="about-project">
-                                Write here basic details about the project.
-                            </p>
-                        </div>
+                                <p class="project-heading">
+                                    disney clone
+                                </p>
+                                <p class="about-project">
+                                    Write here basic details about the project.
+                                </p>
+                            </div>
                         </div>
 
-                    </div>
-                    <div class="project-image-container">
-                        <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png">
-                        <div class="project-details ">
-                            <div>
-                            <p class="project-heading">
-                                disney clone
-                            </p>
-                            <p class="about-project">
-                                Write here basic details about the project.
-                            </p>
-                        </div>
-                        </div>
-
-                    </div>
-                    <div class="project-image-container">
-                        <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png">
-                        <div class="project-details ">
-                            <div>
-                            <p class="project-heading">
-                                disney clone
-                            </p>
-                            <p class="about-project">
-                                Write here basic details about the project.
-                            </p>
-                        </div>
-                        </div>
-
-                    </div>
-                    <div class="project-image-container">
-                        <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png">
-                        <div class="project-details ">
-                            <div>
-                            <p class="project-heading">
-                                disney clone
-                            </p>
-                            <p class="about-project">
-                                Write here basic details about the project.
-                            </p>
-                        </div>
-                        </div>
                     </div>
                     <div class="project-image-container">
                         <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png">
@@ -325,13 +292,68 @@
                                     Write here basic details about the project.
                                 </p>
                             </div>
-                            
+                        </div>
+
+                    </div>
+                    <div class="project-image-container">
+                        <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png">
+                        <div class="project-details ">
+                            <div>
+                                <p class="project-heading">
+                                    disney clone
+                                </p>
+                                <p class="about-project">
+                                    Write here basic details about the project.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="project-image-container">
+                        <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png">
+                        <div class="project-details ">
+                            <div>
+                                <p class="project-heading">
+                                    disney clone
+                                </p>
+                                <p class="about-project">
+                                    Write here basic details about the project.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="project-image-container">
+                        <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png">
+                        <div class="project-details ">
+                            <div>
+                                <p class="project-heading">
+                                    disney clone
+                                </p>
+                                <p class="about-project">
+                                    Write here basic details about the project.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-image-container">
+                        <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png">
+                        <div class="project-details ">
+                            <div>
+                                <p class="project-heading">
+                                    disney clone
+                                </p>
+                                <p class="about-project ">
+                                    Write here basic details about the project.
+                                </p>
+                            </div>
+
                         </div>
 
                     </div>
 
                 </div>
-                <div>
+                <div class="flex_coloumn">
                     <p>For more cool projects , checkout my </p>
                     <p><a href="">Github profile</a></p>
                 </div>
@@ -340,7 +362,7 @@
         <section id="contact">
             <div class="container flex_coloumn">
                 <div class="section_heading ">
-                    <div class="flex_coloumn">
+                    <div class="section_heading_name flex_coloumn">
                         <div class='section_heading_underline'>
                             <p class="section_heading_text">
                                 <span style="font-weight: bolder;">Contact</span>
@@ -362,21 +384,21 @@
 
                 </div>
                 <div class="contact_details ">
-                    <div class="contact_details_block">
+                    <div class="contact_details_block flex_coloumn">
                         <div class="contact_detail_icon">
                             <i class="fa-solid fa-address-card "></i>
                         </div>
-                        <p class="contact_detail_name">Email me at</p>
+                        <p class="contact_detail_name ">Email me at</p>
                         <p class="contact_detail_username">swapniljain240@gmail.com</p>
                     </div>
-                    <div class="contact_details_block">
+                    <div class="contact_details_block flex_coloumn">
                         <div class="contact_detail_icon">
                             <i class="fa-solid fa-comment-dots"></i>
                         </div>
                         <p class="contact_detail_name">Text me on Linkedin</p>
                         <p class="contact_detail_username">@swapnil</p>
                     </div>
-                    <div class="contact_details_block">
+                    <div class="contact_details_block flex_coloumn">
                         <div class="contact_detail_icon">
                             <i class="fa-solid fa-comment-dots"></i>
                         </div>

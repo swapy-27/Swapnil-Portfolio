@@ -13,17 +13,7 @@ main{
     color: white;
     overflow-x: hidden;
 }
-.flex_coloumn{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* justify-content: space-evenly; */
-}
-.flex_row{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
+
 #home{
     height: 100vh;
     width: 100vw;

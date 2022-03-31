@@ -115,6 +115,7 @@ section:nth-child(2n+1){
     margin:35px 0;
 
 }
+
 .skill_name_div{
     width: 100%;
     display: flex;
@@ -174,6 +175,7 @@ section:nth-child(2n+1){
     list-style: none;
     list-style-position: outside;
 }
+
 .experience_details_block::before {
     content: '';
     display: inline-block;
@@ -269,6 +271,18 @@ section:nth-child(2n+1){
     align-items:center;
     justify-content:space-evenly;
 }
+@media screen and (max-width:500px) {
+    .skill{
+        width:95vw;
+    }
+    .experience_details_block{
+        width:87vw;
+        padding: 0;
+    }
+    .project-image-container{
+        width:95vw;
+    }
+}
 .project-image-container >img{
     height:100%;
     width:100%;
@@ -321,7 +335,8 @@ section:nth-child(2n+1){
         padding: 20px 0px;
     }
     .section_heading_below_text{
-        width:85%;
+        width:95vw;
+        padding: 0;
     }
     .contact_details{
         display: flex;

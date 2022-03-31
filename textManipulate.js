@@ -19,7 +19,7 @@ function clearCurrentText (){
     },90) 
 }
 function selectText(){
-    let arr = ['A Developer.','An Engineer.','A Learner.','Swapnil.']
+    let arr = ['A Developer.','An Engineer.','An Explorer.','Swapnil.']
     return arr[currIndex]
 }
 function addNewText(){

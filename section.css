@@ -12,7 +12,11 @@ section{
     padding:20px 20px;
     box-sizing: border-box;
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 
 section:nth-child(2n+1){
     background-color:rgba(252, 248, 248, 0.767);
@@ -205,6 +209,7 @@ section:nth-child(2n+1){
 .hiring_container{
     height: 200px;
     width:100vw;
+    padding: 0 10px;
     background-color: black;
     justify-content: space-evenly;
     margin-top: 25px;
@@ -308,3 +313,28 @@ section:nth-child(2n+1){
     border-bottom:  1px solid black;
     color: blue;
  }
+ .linkedin_contact_block_margin{
+     margin-top: 100px;
+ }
+ @media screen and (max-width:500px) {
+    section{
+        padding: 20px 0px;
+    }
+    .section_heading_below_text{
+        width:85%;
+    }
+    .contact_details{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .contact_details_block{
+        margin: 10px 0;
+    }
+    .linkedin_contact_block_margin{
+        margin-top: 0;
+    }
+    .hiring_details{
+        text-align: center;
+    }
+}

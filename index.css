@@ -82,8 +82,13 @@ nav{
         width: 0;
     }
 }
+@media screen and (max-width:500px) {
+    .section-links{
+        margin: 0 5px;
+    }
+}
 .collasped-bars{
-    
+    width: 100vw;
 }
 .collaspe{
     height:0;

@@ -80,6 +80,7 @@ main{
 
 @media screen and (max-width:500px) {
     #home_centre_div_text > h1{
-        font-size:42px;
+        font-size:38px;
+        word-spacing: 0.4rem;
     }
 }

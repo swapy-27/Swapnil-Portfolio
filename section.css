@@ -141,10 +141,10 @@ section:nth-child(2n+1){
     width:80%;
 }
 
-
 /* ------------Experience Section---------- */
+
 .experience_details_list{
-    
+    position: relative;
     display:flex;
     align-items: center;
     justify-content: space-between;
@@ -152,11 +152,10 @@ section:nth-child(2n+1){
     width:100%;
     padding:10px 35px;
     box-sizing: border-box;
-  
 }
 .sideline{
     position: absolute;
-    height: 170px;
+    height: 250px;
     width:2px;
     background-color: black;
     left:-15px;
@@ -166,7 +165,7 @@ section:nth-child(2n+1){
 .experience_details_block{
     position: relative;
     box-sizing: border-box;
-    height:140px;
+    height:fit-content;
     width:420px;
     border: 1px solid black;
     border-radius: 10px;
@@ -187,22 +186,25 @@ section:nth-child(2n+1){
     left: -30px;
   }
 .experience_details{
-    height: 120px;
+    height: fit-content;
+    min-height: 120px;
     width:100%;
     align-items: flex-start;
     justify-content: space-around;
 }
 .experience_details_date{
+    margin-bottom: 3px;
     font-weight: bold;
     
 }
 .experience_details_name{
+    margin-bottom: 3px;
     font-weight: bold;
     font-size: large;
 }
 .experience_details_about{
+    
     color: rgb(175, 170, 170);
-  
 }
 .experience_details_list li{
     margin: 15px;
@@ -259,6 +261,12 @@ section:nth-child(2n+1){
     width: 100%;
     box-sizing: border-box;
     padding:10px 35px;
+   
+}
+.project-image-container{
+    border: 1px solid black;
+    margin-bottom: 15px;
+    border-radius: 5%;
 }
 .project-image-container >a{
     height:400px;
@@ -285,6 +293,7 @@ section:nth-child(2n+1){
 .project-image-container >a>img{
     height:100%;
     width:100%;
+    opacity: 50%;
 }
 .project-details{
     position: absolute;
@@ -303,20 +312,23 @@ section:nth-child(2n+1){
     box-shadow: 0 0 20px blue;
 }
 .project-heading{
-    font-weight: bold;
-    font-size: 18px;
+    font-weight:900;
+    font-size: 25px;
+    color: black;
 }
 .about-project{
+    font-weight: 900;
     font-size: 14px;
-    color:lightslategrey;
+    color:rgb(74, 93, 110);
 }
 .project-image-container:hover .project-details {
     background-color: #80808078;
     color: white;
 }
-/* .project_tab_github{
-
-} */
+.project_tab_github{
+box-sizing: border-box;
+margin: 15px;
+}
 .project_tab_github a{
    text-decoration: none;
    color:rgb(175, 170, 170);
